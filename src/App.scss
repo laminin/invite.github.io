@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'type-writter';
+  src: local('type-writter'), url("assets/fonts/typewriter.otf") format('OpenType');
+}
+
+body {
+  margin: 0
+}
+
+p {
+  margin: 0
+}
+
+.App {
+  text-align: center;
+  background-image: url('assets/images/bg.png');
+  min-height: 100vh;
+  font-family: 'type-writter';
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
